@@ -18,7 +18,7 @@ header{
 
 .upper-row{
     min-height: 100px;
-    background-color: aqua;
+    background-color: rgba(49,97,224,255);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -57,13 +57,20 @@ li{
 
 
 .low-row{
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
-    min-height: 500px;
+    min-height: 200px;
+    max-width: 1000px;
     justify-content: center;
     align-items: center;
+    background-size: cover;
 }
 
+.img-header{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
 
 
 .contenuto-headerLR{
@@ -71,6 +78,7 @@ li{
     background-color: orange;
     height: 300px;
     width: 800px;
+    background-size: cover;
 }
 
 /* FINE INTESTAZIONE */
@@ -93,11 +101,11 @@ main{
     flex-direction: row;
 }
 
-/* PRIMA RIGA */
+/* PRIMA PAGINA MAIN*/
 
 .prima.pagina{
     display: flex;
-    background-color: grey;
+    /* background-color: grey; */
     justify-content: center;
     align-items: center;
 }
@@ -109,26 +117,36 @@ main{
 .uno.left.square{
     height: 300px;
     width: 400px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+}
 
+.img-main-1ap{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
 .uno.right.square{
     height: 300px;
     width: 300px;
-    background-color: pink;
-
+    /* background-color: pink; */
+    padding: 50px;
+    text-align: center;
 }
-/* FINE PRIMA RIGA*/
+
+.text-main-1ap{
+    padding-bottom: 20px;
+}
+/* FINE PRIMA PAGINA MAIN*/
 
 
 
-/* SECONDA RIGA */
+/* SECONDA PAGINA MAIN */
 .seconda.pagina{
 
     display: flex;
 
-    background-color: black;
+    background-color:  lightgray;
     justify-content: center;
     align-items: center;
 }
@@ -136,23 +154,44 @@ main{
 .due.left.square{
     height: 300px;
     width: 300px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    padding: 50px;
+    text-align: center;
+}
 
+.text-main-2ap{
+    padding-bottom: 20px;
+    
 }
 
 .due.right.square{
     height: 300px;
     width: 400px;
-    background-color: pink;
+    /* background-color: pink; */
+}
+
+.img-main-2ap{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* FINE SECONDA PAGINA MAIN */
+
+/* TERZA PAGINA MAIN */
+
+.img-main-3ap{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
 }
 
 
+/* FINE TERZA PAGINA MAIN */
 
-/* FINE SECONDA RIGA */
+/* QUARTA PAGINA MAIN */
 
-/* ULTIMA RIGA */
-
-.ultima.pagina{
+.quarta.pagina{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,12 +199,28 @@ main{
 
 }
 
-.contenuto-ultima-pagina{
+.contenuto-quarta-pagina{
     height: 400px;
     width: 600px;
-    background-color: green;
+    /* background-color: green; */
+    text-align: center;
 }
-/* FINE ULTIMA RIGA */
+
+.text-main-4ap{
+    padding-bottom: 20px;
+}
+
+.img-main-4ap{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+
+
+
+
+/* FINE QUARTA PAGINA MAIN */
 
 /* FOOTER */
 
@@ -185,7 +240,7 @@ footer{
     align-items: center; 
 }
 
-#uno{
+#speciale{
     height: 300px;
     width: 200px;
     background-color: pink;
