@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1000px;
+}
+
+INTESTAZIONE
+header{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+}
+
+
+.upper-row{
+    min-height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.conteiner-upper-row{
+    width: 70%;
+    min-height: 50%;
+    background-color: darkorange;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenuto-headerUR{
+    display: inline-block;
+    background-color: orange;
+    height: 80px;
+    min-width: 100px;
+    padding: 5px 5px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;}
+
+li{
+    padding: 3px;
+
+}
+
+
+
+
+
+
+.low-row{
+    background-color: blue;
+    display: flex;
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.contenuto-headerLR{
+    display: inline-block;
+    background-color: orange;
+    height: 300px;
+    width: 800px;
+}
+
+/* FINE INTESTAZIONE */
+
+/* CORPO CENTRALE */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pagina{
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* PRIMA RIGA */
+
+.prima.pagina{
+    display: flex;
+    background-color: grey;
+    justify-content: center;
+    align-items: center;
+}
+
+.square{
+    display: inline-block;
+}
+
+.uno.left.square{
+    height: 300px;
+    width: 400px;
+    background-color: lightblue;
+
+}
+
+.uno.right.square{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+
+}
+/* FINE PRIMA RIGA*/
+
+
+
+/* SECONDA RIGA */
+.seconda.pagina{
+
+    display: flex;
+
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.due.left.square{
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+
+}
+
+.due.right.square{
+    height: 300px;
+    width: 400px;
+    background-color: pink;
+}
+
+
+
+/* FINE SECONDA RIGA */
+
+/* ULTIMA RIGA */
+
+.ultima.pagina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.contenuto-ultima-pagina{
+    height: 400px;
+    width: 600px;
+    background-color: green;
+}
+/* FINE ULTIMA RIGA */
+
+/* FOOTER */
+
+footer{
+    background-color: black;
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.up-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#uno{
+    height: 300px;
+    width: 200px;
+    background-color: pink;
+
+}
+
+.foot{
+    height: 300px;
+    width: 100px;
+    background-color: lightseagreen;
+    border: 1px dashed black;
+}
+
+.bottom-footer{
+    height: 200px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: row;
+}
+
+
+.contenuto-bottom-footer{
+    background-color: aqua;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.little-pink1{
+    min-height: 10px;
+    min-width: 10px;
+    background-color: pink;
+    padding: 5px 5px;
+}
+.little-pink2{
+    min-height: 10px;
+    min-width: 10px;
+    background-color: pink;
+    padding: 5px 5px;
+}
+
+
+/* FINE FOOTER */
+
+
+/* FINE CORPO CENTRALE */
