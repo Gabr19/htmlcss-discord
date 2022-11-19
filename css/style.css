@@ -241,7 +241,7 @@ main{
     width: 600px;
     /* background-color: green; */
     text-align: center;
-    padding-top: 0px;
+    padding-top: 50px;
 }
 
 .text-main-4ap{
@@ -251,8 +251,8 @@ main{
 }
 
 .img-main-4ap{
-    height: 100%;
-    width: 100%;
+    height: 90%;
+    width: 90%;
     background-size: cover;
 }
 
