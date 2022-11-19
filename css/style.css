@@ -5,10 +5,11 @@
 }
 
 body{
-    width: 1000px;
+    width: 100vw;
 }
 
-INTESTAZIONE
+
+/* INTESTAZIONE */
 header{
     display: flex;
     height: 600px;
@@ -71,7 +72,6 @@ li{
     /* background-color: blue; */
     display: flex;
     min-height: 200px;
-    max-width: 1000px;
     justify-content: center;
     align-items: center;
     background-size: cover;
@@ -123,7 +123,6 @@ main{
 }
 
 .pagina{
-    width: 1000px;
     height: 600px;
     display: flex;
     justify-content: center;
@@ -138,6 +137,8 @@ main{
     /* background-color: grey; */
     justify-content: center;
     align-items: center;
+    width: 100%;
+
 }
 
 .square{
@@ -179,6 +180,7 @@ main{
     background-color:  lightgray;
     justify-content: center;
     align-items: center;
+    width: 100%;
     
 }
 
@@ -227,7 +229,9 @@ main{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    background-color:  lightgray;    
+    background-color:  lightgray;   
+    width: 100%;
+ 
 
 }
 
@@ -264,7 +268,6 @@ main{
 
 footer{
     background-color: rgba(35,39,42,255);
-    width: 1000px;
     height: 600px;
     display: flex;
     justify-content: center;
